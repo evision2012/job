@@ -17,7 +17,10 @@ def extract_name(text):
 
 
 def extract_email(text):
-    return "NO_EMAIL"
+    text=text.split()
+    for word in text:
+        if '@' in word:
+            return word
 
 
 
