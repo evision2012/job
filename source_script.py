@@ -55,7 +55,10 @@ def extract_college(text):
 
 
 def extract_graduation_year(text):
-    return "NO_YEAR"
+    text=text.split()
+    for word in text: 
+        if word.isdigit() and len(word)==4:
+            return word
 
 
 
