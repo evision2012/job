@@ -25,7 +25,7 @@ def extract_email(text):
 
 
 def extract_phone(text):
-    return "NO_PHONE"
+    return "My_New_PHONE"
 
 
 
