@@ -30,7 +30,7 @@ def extract_phone(text):
 
 
 def extract_city(text):
-    return "NO_CITY"
+    return "Added_CITY"
 
 
 
